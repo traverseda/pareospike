@@ -15,7 +15,7 @@
 //    You should have received a copy of the GNU Affero General Public License
 //    along with pareospike.  If not, see <http://www.gnu.org/licenses/>.
 
-//use<shapehelper.scad>;
+use<shapehelper.scad>;
 
 outerdiam=40;
 outercutdiam=35;
@@ -42,6 +42,7 @@ intersection()
 	}
 }
 
+
 difference(){
 	scale([outerdiam/2,outerdiam/2,outerdiam/2])aeroshape();
 	translate([(outerdiam-outercutdiam)/4,(outerdiam-outercutdiam)/4,0])scale([outercutdiam/2,outercutdiam/2,outerdiam/2])aeroshape();
@@ -54,7 +55,7 @@ translate([(outerdiam-innerdiam)/4,(outerdiam-innerdiam)/4,0])difference(){
 
 }
 
-module aeroshape(){
-	cube(1,1,1);
-}
+//module aeroshape(){
+//	cube(1,1,1);
+//}
 

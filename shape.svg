@@ -30,7 +30,7 @@
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
-     inkscape:window-width="958"
+     inkscape:window-width="1166"
      inkscape:window-height="1059"
      inkscape:window-x="0"
      inkscape:window-y="19"
@@ -54,7 +54,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
         <dc:publisher>
           <cc:Agent>
             <dc:title>Alex Davies</dc:title>
@@ -90,9 +90,7 @@
      id="layer1">
     <path
        style="fill:#000000;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 17.716535,24.803127 708.661415,0 C 576.95727,347.40479 520.47407,672.82275 496.06299,999.21258 l -248.03149,0 C 211.33188,673.11678 170.10699,347.16696 17.716535,24.803127 z"
-       id="path2987"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccc" />
+       d="M 389.1875 24.8125 L 389.1875 999.21875 L 496.0625 999.21875 C 520.47358 672.82892 576.95432 347.41416 726.375 24.8125 L 389.1875 24.8125 z "
+       id="path2987" />
   </g>
 </svg>
