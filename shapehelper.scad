@@ -17,16 +17,16 @@
 
 
 scale([1,1,1])aeroshapehelper();
-color(["blue", 0.5])cube([20,20,1],center=true);
+%cube([20,20,1],center=true);
 
-//to have the measurements in shapehelper.scad be acurate, you need to have the module aeroshapehelper fill up the blue square as fulle as possible.
+//to have the measurements in shapehelper.scad be acurate, you need to have the module aeroshapehelper fill up the blue square as fully as possible.
 
 
 
 
 
 module aeroshapehelper(){
-	scale([1.25,1.25,1.25])rotate_extrude(file = "out.dxf", convexity = 10, twist = 0);
+	scale([2.5,2.5,2.5])rotate_extrude(convexity = 0, $fn = 20)translate([0,0,0])import("out.dxf");
 
 }
 
